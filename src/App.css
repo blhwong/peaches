@@ -22,6 +22,11 @@
   height: auto;
 }
 
+.name {
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
 .App-header {
   background-color: #222;
   height: 150px;

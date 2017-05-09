@@ -8,7 +8,7 @@ class App extends Component {
         <div className="container">
           <div className="profile-container">
           <img className="profile" alt="Brandon Wong" src="profile.jpg"/>
-          <h1>Brandon Wong</h1>
+          <h1 className="name">Brandon Wong</h1>
           <div className="sub-heading">I'm a software engineer, full-stack JavaScript developer, bird enthusiast, and a displaced Texan living in<br/>San Francisco, California.</div>
           </div>
         </div>
