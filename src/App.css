@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  height: 1020px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+}
+
+.sub-heading {
+  max-width: 300px;
+}
+
+.profile {
+  border-radius: 5px;
+  max-width: 300px;
+  height: auto;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
