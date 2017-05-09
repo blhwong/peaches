@@ -12,6 +12,10 @@
 .profile-container {
 }
 
+.links {
+  margin: 0 10px 0 10px;
+}
+
 .sub-heading {
   max-width: 300px;
 }
@@ -20,6 +24,11 @@
   border-radius: 5px;
   max-width: 300px;
   height: auto;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
 }
 
 .name {
