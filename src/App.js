@@ -12,6 +12,12 @@ class App extends Component {
           <div className="sub-heading">I'm a software engineer, full-stack JavaScript developer, bird enthusiast, and a displaced Texan living in<br/>San Francisco, California.</div>
           </div>
         </div>
+        <div className="container">
+          Bio
+        </div>
+        <div className="container">
+          Projects
+        </div>
       </div>
     );
   }
