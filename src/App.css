@@ -26,16 +26,6 @@
   height: auto;
 }
 
-.logo {
-  width: 20px;
-  height: 20px;
-}
-
-.name {
-  font-variant: small-caps;
-  text-transform: lowercase;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
