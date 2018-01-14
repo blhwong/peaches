@@ -4,12 +4,14 @@
 }
 
 .name {
-  margin: 0;
+  margin: 0 0 5px 0;
   font-variant: small-caps;
   text-transform: lowercase;
+  padding-bottom: 6px;
 }
 
 .header {
   width: 100%;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+
 }
