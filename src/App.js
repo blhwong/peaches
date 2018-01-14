@@ -74,7 +74,7 @@ class App extends Component {
         </div>
         <div className="container">
           <div className="profile-container">
-            <div className="experience">Experience</div>
+            <h2 className="experience-header">Experience</h2>
             <div className="row">
               <div className="column">
                 <div className="image-container">
@@ -97,11 +97,68 @@ class App extends Component {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         <div className="container">
-          Projects
+          <div className="profile-container">
+            <h2 className="projects-header">Projects</h2>
+            <div className="row">
+              <div className="column">
+                <div className="sub-heading">
+                  <a href="https://github.com/blhwong/bewty" target="_blank" rel="noopener noreferrer">MindFits</a>
+                </div>
+                <div className="image-container">
+                  <div className="box large">
+                    <img className="image large" alt="MindFits" src="mindfits.png" />
+                  </div>
+                </div>
+                <div className="sub-heading">
+                  Daily journaling that analyzes emotion.
+                </div>
+              </div>
+              <div className="column">
+                <div className="sub-heading">
+                  <a href="https://github.com/blhwong/spotiviv" target="_blank" rel="noopener noreferrer">Spotiviv</a>
+                </div>
+                <div className="image-container">
+                  <div className="box large">
+                    <img className="image large" alt="Spotiviv" src="spotiviv.png" />
+                  </div>
+                </div>
+                <div className="sub-heading">
+                  Music track search.
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="column">
+                <div className="sub-heading">
+                  <a href="https://github.com/blhwong/Viz-ly" target="_blank" rel="noopener noreferrer">Viz.ly</a>
+                </div>
+                <div className="image-container">
+                  <div className="box large">
+                    <img className="image large" alt="Viz.ly" src="vizly.png" />
+                  </div>
+                </div>
+                <div className="sub-heading">
+                  Data visualizer for your photos.
+                </div>
+              </div>
+              <div className="column">
+                <div className="sub-heading">
+                  <a href="https://github.com/blhwong/The-Project" target="_blank" rel="noopener noreferrer">Diff</a>
+                </div>
+                <div className="image-container">
+                  <div className="box large">
+                    <img className="image large" alt="Diff" src="diff.png" />
+                  </div>
+                </div>
+                <div className="sub-heading">
+                  Bill splitting and tracking with friends.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
