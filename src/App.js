@@ -46,19 +46,59 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="profile-container">
-            <img className="profile" alt="Brandon Wong" src="profile.jpg" />
+              <img className="image" alt="Brandon Wong" src="profile.jpg" />
             <div className={headerClassName}>
               <Header app={this} setHeight={this.setHeight} />
             </div>
             {isSticky && <div style={{ height: this.state.headerHeight }} ref={this.setBlockRef} />}
-            <div className="sub-heading">I'm a software engineer, full-stack JavaScript developer, bird enthusiast, and a displaced Texan living in<br />San Francisco, California.</div>
+            <div className="sub-heading">
+              I'm a full-stack software engineer.
+              <br />
+              Born and raised in Texas.
+              <br />
+              Currently living in San Francisco, CA.
+            </div>
           </div>
         </div>
         <div className="container">
-          Education
+          <div className="profile-container">
+              <img className="image" alt="University of Texas" src="longhorn.png" />
+            <div className="sub-heading">
+              The University of Texas at Austin
+              <br />
+              Bachelor of Science
+              <br />
+              Electrical and Computer Engineering
+            </div>
+          </div>
         </div>
         <div className="container">
-          Experience
+          <div className="profile-container">
+            <div className="experience">Experience</div>
+            <div className="row">
+              <div className="column">
+                <div className="image-container">
+                  <div className="box">
+                    <img className="image" alt="Yerdle Recommerce" src="yerdle.jpg" />
+                  </div>
+                </div>
+                <div className="sub-heading">
+                  2017 - Present
+                </div>
+              </div>
+              <div className="column">
+                <div className="image-container">
+                  <div className="box">
+                    <img className="image" alt="Seagate Technology" src="seagate.jpg" />
+                  </div>
+                </div>
+                <div className="sub-heading">
+                  2016 - 2017
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
         <div className="container">
           Projects

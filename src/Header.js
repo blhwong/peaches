@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import github from '../public/github.png';
+import github from '../public/github.svg';
 import linkedin from '../public/linkedin.png';
 import angellist from '../public/angellist.png';
 

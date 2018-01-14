@@ -25,9 +25,10 @@ body {
 .sub-heading {
   max-width: 300px;
   margin: auto;
+  margin-top: 10px;
 }
 
-.profile {
+.image {
   border-radius: 5px;
   max-width: 300px;
   height: auto;
@@ -92,4 +93,45 @@ body {
   animation-name: nonstickynav;
   animation-duration: 0.25s;
   animation-timing-function: ease;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    margin: 20px;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.box {
+ justify-content: center;
+ align-items: center;
+ display: grid;
+ height: 300px;
+ width: 300px;
+ margin: auto;
+ box-shadow: 0 1px 5px lightgrey;
+}
+
+.experience {
+  margin-bottom: 30px;
 }
