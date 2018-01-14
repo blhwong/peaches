@@ -41,7 +41,7 @@ class App extends Component {
       (this.header && this.header.offsetTop) || (this.block && this.block.offsetTop)
     );
     const isSticky = this.state.pageYOffset >= offsetTop;
-    const headerClassName = isSticky ? 'sticky' : '';
+    const headerClassName = isSticky ? 'sticky' : 'non-sticky';
     return (
       <div className="App">
         <div className="container">
@@ -55,7 +55,7 @@ class App extends Component {
           </div>
         </div>
         <div className="container">
-          Bio
+          Education
         </div>
         <div className="container">
           Experience

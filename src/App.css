@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -11,6 +15,7 @@
 }
 
 .profile-container {
+  width: 100%;
 }
 
 .links {
@@ -19,6 +24,7 @@
 
 .sub-heading {
   max-width: 300px;
+  margin: auto;
 }
 
 .profile {
@@ -38,10 +44,52 @@
   font-size: large;
 }
 
+@keyframes stickynav {
+  from {
+    border-color: white;
+  }
+
+  to {
+    border-color: black;
+  }
+}
+
+@keyframes nonstickynav {
+  from {
+    border-color: black;
+  }
+
+  to {
+    border-color: white;
+  }
+}
+
 .sticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: white;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  animation-name: stickynav;
+  animation-duration: 0.25s;
+  animation-timing-function: ease;
+}
+
+.non-sticky {
+  background-color: white;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  animation-name: nonstickynav;
+  animation-duration: 0.25s;
+  animation-timing-function: ease;
 }
